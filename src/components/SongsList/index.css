@@ -1,0 +1,67 @@
+.item{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.img{
+    width: 180px;
+    height: 120px;
+}
+.text-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+    width: 100%;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.title{
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+.genre{
+    color:  #3b82f6;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+.duration-container{
+    display: flex;
+    align-items: center;
+}
+.duration{
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+.delete-btn{
+    background-color: transparent;
+    border:none;
+    margin-left: 10px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+@media (max-width: 576px){
+    .img{
+        width: 100px;
+        height: 80px;
+    }
+    .title{
+        font-size: 15px;
+        width: 60%;
+
+    }
+    .genre{
+        font-size: 15px;
+        margin-top: 1px;
+    }
+    .duration{
+        font-size: 15px;
+    }
+}
